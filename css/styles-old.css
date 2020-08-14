@@ -1,0 +1,78 @@
+.row-header{
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.row-content{
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+
+}
+
+.footer{
+    background-color: #d1c4e9;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+
+}
+
+.jumbotron{
+    padding: 70px 30px 70px 30px;
+    margin: 0px auto;
+    background-color: #9575CD;
+    color: floralwhite; /*color de la letra*/
+}
+
+.address{
+    font-size: 80%;
+    margin: 0px;
+    color: #0f0f0f;
+}
+
+.left-half {
+    flex: 1;
+}
+
+  /*PARTE DEL NAVBAR*/
+  body{
+      padding: 50px 0px  0px  0px;
+      z-index: 0;
+    }
+
+.navbar-dark{
+    background-color: #512da8;
+}
+/*Esta modificación agrega un borde de 1px al contenido de la pestaña que se une con el borde superior introducido por el elemento de navegación de pestaña para dar una apariencia de pestaña limpia.*/
+.tab-content{
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+  /*clases parte del carrusel semana3*/
+.carousel {
+    background:#512DA8;
+}
+
+.carousel-item {
+    height: 300px;/*ancho del carrousel*/
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;/*ancho de la imagen igual al del carrousel*/
+}
+
+/*CSS class for the buttons pause-play carrousel cambia la posicion de los botones parte de la week 4*/
+#carouselButton{
+    right: 0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+
+}
